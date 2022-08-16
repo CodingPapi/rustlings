@@ -12,3 +12,6 @@ fn call_me(num: u32) {
         println!("Ring! Call number {}", i + 1);
     }
 }
+fn call_me() {
+    println!("Ring! Call without number");
+}
